@@ -1,3 +1,22 @@
+Quick Installation Notes - AutoComplPop:
+
+1. download zip
+2. extract all files into ~/.vim
+3. add the following code to ~/.vimrc
+
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+autocmd FileType c set omnifunc=ccomplete#Complete
+
+4. install L9 vim script plugin
+
+
+
+==============================================================================
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=1879
 
 Repository:
